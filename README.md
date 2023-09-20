@@ -48,7 +48,7 @@ API management tools + code tools + code inspection and quickFix + code completi
 >
 > Since this feature is not necessarily needed by every developer, and many times the URL and method name will be
 > similar, the completion that comes with the IDE and this completion will be mixed together. In order to avoid this
-> situation,
+> situation
 >
 > **This feature requires an 'x' at the beginning to enable completion**。
 > ![apiPreview](./screenshots/completionBaseOnUrl.gif)
@@ -61,5 +61,5 @@ API management tools + code tools + code inspection and quickFix + code completi
 - <kbd>Settings(windows:alt+shift+S;mac:command+,)</kbd> > <kbd>Plugins</kbd> > <kbd></kbd> > <kbd>type in "
   Retrofit Assistant"</kbd> > <kbd>Install Plugin</kbd>
 
-[plugin]: https://plugins.jetbrains.com/plugin/
+[plugin]:https://plugins.jetbrains.com/plugin/22726-retrofit-assistant
 

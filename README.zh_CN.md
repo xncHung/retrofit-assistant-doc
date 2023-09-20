@@ -57,5 +57,5 @@ API管理工具+代码工具+代码检查及快速修正+代码补全
 - <kbd>Settings(windows:alt+shift+S;mac:command+,)</kbd> > <kbd>Plugins</kbd> > <kbd></kbd> > <kbd>输入"
   Retrofit Assistant"</kbd> > <kbd>Install Plugin</kbd>
 
-[plugin]: https://plugins.jetbrains.com/plugin/
+[plugin]:https://plugins.jetbrains.com/plugin/22726-retrofit-assistant
 
