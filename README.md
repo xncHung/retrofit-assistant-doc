@@ -13,9 +13,9 @@ API management tools + code tools + code inspection and quickFix + code completi
 
 ## Feature introduction
 
-* Summarize all the retrofit APIS in the project into a tool window, the experience is similar to the Structure
-  tool window, showing all the APIS in a tree form, you can enter path keywords in the window to filter the
-  APIS, double-click or press enter for quick navigation.
+* Summarize all the retrofit APIs in the project into a tool window, the experience is similar to the Structure
+  tool window, showing all the APIs in a tree form, you can enter path keywords in the window to filter the
+  APIs, double-click or press enter for quick navigation.
 
 * It provides a large number of local code checks and quick corrections, such as common missing annotations, incorrect
   parameter types, nullable types used in non-nullable parameters, and illegal characters in the header. Basically,
@@ -37,15 +37,15 @@ API management tools + code tools + code inspection and quickFix + code completi
 
 * liveTemplate, the plugin has a batch of live templates embedded, for example, you can input 'retrofitApi' in the
   interface file to quickly generate an interface template, and input 'query' in the parameter position to add query
-  parameters. This is useful for creating and modifying APIS.
+  parameters. This is useful for creating and modifying APIs.
 
 If the project's interface documentation supports exporting Open API Specification 3.0 (OAS/swagger), the following
 features will take effect and can greatly improve development efficiency.
 
 * You can import remote or local oas into the IDE and view the interface documents in the IDE
 
-* APIS can be grouped by whether they appear in the project or not, and APIS that have appeared can be
-  navigated between documents and code. The grouping function allows you to quickly find new APIS during version
+* APIs can be grouped by whether they appear in the project or not, and APIs that have appeared can be
+  navigated between documents and code. The grouping function allows you to quickly find new APIs during version
   iteration and version development.
 
 * In the API creation dialog, the URL can be completed, and after the completion item is applied, the Retrofit API will
@@ -62,7 +62,7 @@ features will take effect and can greatly improve development efficiency.
 # Api manager tool window
 
 ![apitree.gif](./screenshots/apitree.gif)
-This window summarizes all the APIS in the project, and displays them in a tree with their URLs, and you can
+This window summarizes all the APIs in the project, and displays them in a tree with their URLs, and you can
 directly enter interface keywords in the window to quickly locate and navigate to the interface.
 
 # Code inspection and quick fix
@@ -104,7 +104,7 @@ Java
 
 ## Type Inspection
 
-Probably the most common problem encountered by developers in type problems is that some APIS need to be annotated
+Probably the most common problem encountered by developers in type problems is that some APIs need to be annotated
 with @Jvm Suppress Wildcards, such as this one:
 
 ```kotlin
@@ -132,7 +132,7 @@ fun fieldMapKey(@Body qu: List<Param>): Call<BaseResponse<Bean?>?>?
 ```
 
 This interface has been working normally until one day when developing a new business, the parameters of other
-APIS need to reuse the fields of Param, and in order to inherit Param, an open keyword is added to the Param
+APIs need to reuse the fields of Param, and in order to inherit Param, an open keyword is added to the Param
 class, then the interface that is working normally must be 100% error.
 
 The reason for the above two problems is that the type parameters of Map and List are modified with 'out' keyword, which
