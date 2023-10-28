@@ -216,8 +216,6 @@ and the author will take swagger as an example to introduce the use of this func
 
 Go to [Swagger]() and sign up for an account and log in, and you will have a sample project with some sample rest api
 
-![apifoxdemo.png](./screenshots/apifoxdemo.png)
-
 ## add swagger OAS to plugin
 
 1. click the add button in the toolbar,select the remote oas,
