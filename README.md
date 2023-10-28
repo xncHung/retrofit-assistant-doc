@@ -52,12 +52,12 @@ features will take effect and can greatly improve development efficiency.
   be automatically generated based on the API document, including the corresponding comments.
 
 * If you don't use the dialog to generate the API, you can call the completion shortcut to fill in the url and parameter
-  when entering the key of the url and parameter, and the corresponding shortcut can be found in Code-><kbd><kbd><kbd>
-  Code Completion<kbd>-><kbd>Basic<kbd>.
+  when entering the key of the url and parameter, and the corresponding shortcut can be found in <kbd>Code</kbd>-><kbd>
+  Code Completion</kbd>-><kbd>Basic</kbd>.
 
 * You can move the cursor to the position of the parameter and call the intelligent completion of the interface method
-  parameters. The corresponding shortcut keys can be found in Code-><kbd><kbd><kbd>Code Completion-<kbd>><kbd>
-  Type-Matching<kbd>.
+  parameters. The corresponding shortcut keys can be found in <kbd>Code</kbd>-><kbd>Code Completion</kbd>-><kbd>
+  Type-Matching</kbd>.
 
 # Api manager tool window
 
