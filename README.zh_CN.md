@@ -236,5 +236,13 @@ smartbear)的工具:[Swagger](https://swagger.io/tools/),除了导入不同外�
 - <kbd>Settings(windows:alt+shift+S;mac:command+,)</kbd> > <kbd>Plugins</kbd> > <kbd></kbd> > <kbd>输入"
   Retrofit Assistant"</kbd> > <kbd>Install Plugin</kbd>
 
+## 优惠和推广
+如果你觉得本插件还不错，请转发给你身边的朋友，可以阅读[此文](https://juejin.cn/post/7294165410344386579)文末说明获取优惠券。
+本插件尚在推广阶段，如果你想和我一起推广并从中获取收益，或者任何意见或建议，可以通过VX联系到我。
+![vx](./contactinfo/vx.png)
+
+
+
+
 [plugin]:https://plugins.jetbrains.com/plugin/22726-retrofit-assistant
 

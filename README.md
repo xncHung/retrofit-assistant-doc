@@ -243,7 +243,7 @@ As shown in the animated gif, the recommended general process is:
 ### Update the API
 
 Assuming that the oas you just added has been changed during development, for example, the path parameter:deviceId
-has been changed to device_id,and a new query parameter:foo has been added,you can with 
+has been changed to device_id,and a new query parameter:foo has been added,you can with
 [code completion and smart completion](https://www.jetbrains.comhelpideaauto-completing-code.html) to complete the api.
 > Remember to click refresh in the Retrofit OAS window to get the latest changes, if it's a local OAS,
 > you'll need to download a new oas json file and overwrite the current, then click refresh again.
@@ -254,13 +254,20 @@ has been changed to device_id,and a new query parameter:foo has been added,you c
 
 ![urlcompletion.gif](./screenshots/urlcompletion_en.gif)
 
-The above is a general process for using OAS, please note that although the article uses api Fox as an example, it does not mean that apifox can only be used, 
-in fact, since the OAS standard is an open and unified standard, any api management tool that supports exporting OAS 3 can be used。
+The above is a general process for using OAS, please note that although the article uses api Fox as an example, it does
+not mean that apifox can only be used,
+in fact, since the OAS standard is an open and unified standard, any api management tool that supports exporting OAS 3
+can be used。
 
 ## How to install
 
 - <kbd>Settings(windows:alt+shift+S;mac:command+,)</kbd> > <kbd>Plugins</kbd> > <kbd></kbd> > <kbd>type in "
   Retrofit Assistant"</kbd> > <kbd>Install Plugin</kbd>
+
+## Offers and promotions
+
+This plugin is still in the promotion stage. If you want to promote it with me and get benefits from it,
+or have any comments or suggestions, you can contact me through [email](mailto:xnchung@yeah.net).
 
 [plugin]:https://plugins.jetbrains.com/plugin/22726-retrofit-assistant
 
