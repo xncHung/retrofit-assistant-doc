@@ -130,7 +130,7 @@ fun fieldMapKey(@Body qu: List<Param>): Call<BaseResponse<Bean?>?>?
 
 当需要创建新的Api时，可以选择通过创建api对话框来创建api
 
-![api dialog.png](./screenshots/api dialog.png)
+![api dialog.png](./screenshots/api_dialog.png)
 下面是使用模板和oas快速生成api的样例（文章中的oas由apifox支持）：
 
 ![dialogwithtemplate.gif](./screenshots/dialogwithtemplate.gif)
@@ -140,7 +140,7 @@ fun fieldMapKey(@Body qu: List<Param>): Call<BaseResponse<Bean?>?>?
 ![dialogunresolve.gif](./screenshots/dialogunresolve.gif)
 动画中只是做演示之用，实际开发中可能需要更新参数名/注解及返回类型什么的。但如果是基于oas填充的参数则基本不用更改。或者可以将Map修改为实体类，你可以在oas窗口中找到文档的返回json样例，复制后使用json转实体的插件快速构建实体类（比如[SON To Kotlin Class](https://plugins.jetbrains.com/plugin/9960-json-to-kotlin-class-jsontokotlinclass-))
 
-![generate Model.gif](./screenshots/generate Model.gif)
+![generate Model.gif](./screenshots/generate_Model.gif)
 
 # 基于url的代码补全
 
