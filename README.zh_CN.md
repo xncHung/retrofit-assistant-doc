@@ -2,7 +2,9 @@
 
 - [English](./README.md)
 
-[![Jetbrains Plugins](https://img.shields.io/badge/plugin-Retrofit_Assistant-x.svg?logo=IntelliJ%20IDEA)][plugin]
+- [![Jetbrains Plugins](https://img.shields.io/badge/plugin-Retrofit_Assistant-x.svg?logo=IntelliJ%20IDEA)][plugin]
+
+**注意：文档中配图比较多，因众所周知的原因，国内访问github不稳，可能会不能加载图片**
 
 [**Retrofit Assistant**][plugin]是你使用Retrofit框架的好帮手，可以让你更加容易、高效、安全地使用Retrofit。你可以认为约等于：
 
