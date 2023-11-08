@@ -11,8 +11,6 @@
 API管理工具+代码工具+oas文档工具+代码检查及快速修正+代码补全
 
 > 支持的Retrofit版本>=2.6.0
-> 
-> 支持的oas版本:3.0.x
 
 ## 功能简介
 
@@ -170,9 +168,9 @@ fun fieldMapKey(@Body qu: List<Param>): Call<BaseResponse<Bean?>?>?
 
 以上功能便是插件在没有导入OAS时所能提供的功能，如果你的api文档支持OAS导出，那么强烈建议你导入oas，相信你会发现写接口从没有如此丝滑过。。
 
-# OAS 3.0(Swagger) 支持
+# Open Api Specification 支持
 
-插件从2023.2.0版本开始加入了对[OAS3.0(swagger)](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md)
+插件从2023.2.0版本开始加入了对[OAS(swagger)](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md)
 的支持，此功能其实上文中已经有所提及，接下来笔者将以Apifox为例，介绍此功能的使用。
 
 ## 注册并登录Apifox
