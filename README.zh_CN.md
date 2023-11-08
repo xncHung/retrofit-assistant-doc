@@ -167,7 +167,6 @@ fun fieldMapKey(@Body qu: List<Param>): Call<BaseResponse<Bean?>?>?
 查看所有的LiveTemplates，请转到"Setting-Editor-Live Templates-RetrofitAssistant(Kotlin/Java)"
 
 以上功能便是插件在没有导入OAS时所能提供的功能，如果你的api文档支持OAS导出，那么强烈建议你导入oas，相信你会发现写接口从没有如此丝滑过。。
-
 # Open Api Specification 支持
 
 插件从2023.2.0版本开始加入了对[OAS(swagger)](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md)
